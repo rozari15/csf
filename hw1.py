@@ -21,6 +21,14 @@ a = 1
 b = -5.86
 c = 8.5408
 
+
+x1 = (-b + math.sqrt(b ** 2 - 4 * a * c)) / 2 * a
+x2 = (-b - math.sqrt(b ** 2 - 4 * a * c)) / 2 * a
+
+print "Problem 1 solution follows:"
+print x1
+print x2
+
 x = -b + math.sqrt((b) ** 2 - 4 * a * c) / 2 * a
 print x
 
@@ -30,6 +38,9 @@ print x
 ###
 ### Problem 2
 ###
+
+print " "
+print "Problem 2 solution follows:"
 
 print hw1_test.a
 print hw1_test.b
@@ -45,6 +56,11 @@ print hw1_test.f
 ### Problem 3
 ###
 
+
+
+print " "
+print "Problem 3 solution follows:"
+print ((hw1_test.a and hw1_test.b) or (not hw1_test.c) and not (hw1_test.d or hw1_test.e or hw1_test.f))
 print hw1_test(((a and b) or (not c) and not (d or e or f)))
 
 # ... write your code and comments here (and remove this line)
@@ -54,4 +70,8 @@ print hw1_test(((a and b) or (not c) and not (d or e or f)))
 ### Collaboration
 ###
 
-# ... List your collaborators here, as a comment (on a line starting with "#").
+
+#
+# Stephen
+#
+#
