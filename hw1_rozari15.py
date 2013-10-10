@@ -29,8 +29,6 @@ print "Problem 1 solution follows:"
 print x1
 print x2
 
-x = -b + math.sqrt((b) ** 2 - 4 * a * c) / 2 * a
-print x
 
 # ... write your code and comments here (and remove this line)
 
