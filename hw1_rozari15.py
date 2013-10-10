@@ -40,12 +40,7 @@ print x2
 print " "
 print "Problem 2 solution follows:"
 
-print hw1_test.a
-print hw1_test.b
-print hw1_test.c
-print hw1_test.d
-print hw1_test.e
-print hw1_test.f
+
 
 # ... write your code and comments here (and remove this line)
 

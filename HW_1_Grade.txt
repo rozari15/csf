@@ -1,0 +1,4 @@
+Justin Carson : carjus31\
+3\3 Correct. 100%. 
+After print x1 and x2 you dont need the following line.
+All other code is fine and dandy to my knowledge!!!
