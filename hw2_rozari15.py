@@ -10,6 +10,7 @@
 # print the answers to all the problems.
 
 
+import math
 import hw2_test
 
 
@@ -67,7 +68,7 @@ print "Problem 4 solution follows:"
 
 n = 10
 p = 1
-for i in range(1, n + 1):
+for i in range(2, n + 1):
     p = p * i
 print p
 
@@ -80,12 +81,17 @@ print p
 print "Problem 5 solution follows:"
 
 n = 10
-p = 1
+p = 10
+
+
 for i in range(1, n + 1):
-    p = p * i
+    n = n - 1
+    for q in range(1, n + 1):
+        p = p * q
+    
     print p
 
-# ... write your code and comments here (and remove this line)
+# i cannot, for the life of me, figure this one out
 
 ###
 ### Problem 6
@@ -94,19 +100,25 @@ for i in range(1, n + 1):
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 6 solution follows:"
 
-# ... write your code and comments here (and remove this line)
+x = 1.0
+t = 1
+for n in range(2, 11):
+    t = t * (x / n)
+
+print t
+
+# returns 2.75; that's close enough
 
 ###
 ### Collaboration
 ###
 
-# ... List your collaborators and other sources of help here (websites, books, etc.),
-# ... as a comment (on a line starting with "#").
+# i used the icup text for understanding while and for loops.
+# i used the python website for the built in range() funtion
 
 ###
 ### Reflection
 ###
 
-# ... Write how long this assignment took you, including doing all the readings
-# ... and tutorials linked to from the homework page. Did the readings, tutorials,
-# ... and lecture contain everything you needed to complete this assignment?
+# including class time, i'd say i spent about seven hours on this assignment;
+# i guess i need to figure out nested for loops
