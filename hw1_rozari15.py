@@ -37,17 +37,23 @@ print x2
 ### Problem 2
 ###
 
+<<<<<<< HEAD:hw1_rozari15.py
 
+=======
+>>>>>>> f7cf185f69754ffaeab09d2772655626c9f50dee:hw1_rozari15.py
 print " "
 print "Problem 2 solution follows:"
 
 
+<<<<<<< HEAD:hw1_rozari15.py
 print hw1_test.a
 print hw1_test.b
 print hw1_test.c
 print hw1_test.d
 print hw1_test.e
 print hw1_test.f
+=======
+>>>>>>> f7cf185f69754ffaeab09d2772655626c9f50dee:hw1_rozari15.py
 
 # ... write your code and comments here (and remove this line)
 
@@ -61,7 +67,10 @@ print hw1_test.f
 print " "
 print "Problem 3 solution follows:"
 print ((hw1_test.a and hw1_test.b) or (not hw1_test.c) and not (hw1_test.d or hw1_test.e or hw1_test.f))
+<<<<<<< HEAD:hw1_rozari15.py
 
+=======
+>>>>>>> f7cf185f69754ffaeab09d2772655626c9f50dee:hw1_rozari15.py
 print hw1_test(((a and b) or (not c) and not (d or e or f)))
 
 
