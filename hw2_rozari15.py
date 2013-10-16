@@ -81,7 +81,7 @@ print p
 print "Problem 5 solution follows:"
 
 n = 10
-p = 10
+p = 1
 
 
 for i in range(1, n + 1):
