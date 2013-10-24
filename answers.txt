@@ -23,16 +23,21 @@ GC-content: 0.3
 
 Problem 3:
 
-When seq and linenum are removed, the next time either is called, the program won't know what it is and will return an error.
+When seq and linenum are removed, the next time either is called, the program won't know what it is and will return an error. I predict the same thing will happen with gc_count when its initialization to zero is commented out... As it turns out, that's exactly what is returned: a “not defined” error.
 
 Problem 4:
 
-...
+GC-content: 0.5994
+AT-content: 1.0
+G count: 12176
+C count: 11800
+A count: 7970
+T count: 32030
 
 Collaboration:
 
-...
+keir helped me out when all my outputs were 0.0
 
 Reflection:
 
-...
+I would've liked problem 4 to be “change the program to have it spit out the desired answer from problem 1” instead of splitting it up in two parts
