@@ -1,0 +1,38 @@
+﻿Name: rel
+Evergreen Login: rozari15
+Computer Science Foundations
+Programming as a Way of Life
+Fall 2013
+Homework 3 
+
+For each problem that requires a written answer, write (or copy-and-paste)
+your answers in this file.  When you are done, you should have replaced all
+the ellipses (the three dots) with your answers.
+
+At the end, you will turn in this file along with your modified
+dna_analysis.py program.
+
+
+Problem 1:
+
+(No answers in this file.)
+
+Problem 2:
+
+GC-content: 0.3
+
+Problem 3:
+
+When seq and linenum are removed, the next time either is called, the program won't know what it is and will return an error.
+
+Problem 4:
+
+...
+
+Collaboration:
+
+...
+
+Reflection:
+
+...
