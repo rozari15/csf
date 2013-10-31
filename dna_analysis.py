@@ -84,6 +84,10 @@ gc_content = float(gc_count) / total_count
 # divide the at_count by the total_count
 at_content = float(at_count) / total_count
 
+sum_count = g_count + c_count + a_count + t_count
+ratio = (a_count + t_count) / (g_count + c_count)
+
+
 # Print the answer
 print "GC-content:", gc_content
 print "AT-content:", at_content
@@ -91,6 +95,17 @@ print "G count:", g_count
 print "C count:", c_count
 print "A count:", a_count
 print "T count:", t_count
+print "Sum count", sum_count
+print "Total count:", total_count
+print "seq length", len(seq)
+print "AT/GC ratio:", ratio
+print "GC Classification:", 
+if (gc_content < .4):
+    print "low"
+if (gc_content > .6):
+    print "high"
+else:
+    print "moderate"
 
 
 

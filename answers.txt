@@ -41,3 +41,10 @@ keir helped me out when all my outputs were 0.0
 Reflection:
 
 I would've liked problem 4 to be “change the program to have it spit out the desired answer from problem 1” instead of splitting it up in two parts
+
+
+Problem 6:
+
+AT-content, T count, and the ratio are almost always off but close. The sum is hit and miss.
+
+No collaborators.
