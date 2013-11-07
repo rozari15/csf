@@ -1,0 +1,11 @@
+REL (rozari15)
+Programming Homework-Replacement Proposal
+
+
+
+1) use the keyboard as raw-input to turn it into a synth keyboard to play 8-bit sounds
+2) in a text input, be able to type "super mario" or "tetris" etc. to play the 8-bit 
+   theme music from a few games and then be able to switch to the keyboard input to be 
+   able to "jam" over the theme music.
+3) maybe turn it into a typing version of DDR where the keys that make the sound for 
+   a theme song are displayed so you can actually play the song yourself
