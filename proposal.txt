@@ -6,5 +6,5 @@ Programming Homework-Replacement Proposal
 1) virtually simulate drawing a hand in Magic the Gathering
 2) using raw_input(), promt the "player" is s/he would like to draw another hand,
    keep, play a card, attack, or pass turn
-3) bonus feature: either display a .jpeg of the card or let the "player" run 
-   against a virtual player against different decks
+3) the program will keep track of the game as players play an actual game (ie. life totals, 
+   what cards are on the table, etc.)
